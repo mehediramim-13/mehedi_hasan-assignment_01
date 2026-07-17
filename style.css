@@ -8,7 +8,10 @@
     max-width: 1280px;
     margin: 0 auto;
 }
-
+section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 /* Nav Design Strt */
 nav{
     display: flex;
@@ -170,3 +173,138 @@ nav ul li a {
 
 }
 /* Speakers Section Design End */
+
+/* Pricing Card Design Start */
+.pricing-card-main {
+    font-family: "Arimo", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+}
+.pricing-card-header{
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    justify-content: center;
+     margin-bottom: 40px;
+}
+.pricing-card-header h1{
+    height: 60px;
+    color: #0d1b2aFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0px;
+    text-decoration: none;
+    text-transform: none;
+}
+.pricing-card-header p{
+    height: 24px;
+    color: #575757FF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-decoration: none;
+
+}
+.pricing-card h3{
+    height: 44px;
+    color: #0d1b2aFF;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0px;
+}
+.middle h3{
+    color: #ffffffFF;
+
+}
+.plan-name{
+    color: #888888FF;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.middle .plan-name{
+    color: #93c5fdFF;
+}
+.per-person{
+    color: #888888FF;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0px;
+    text-transform: none;
+    text-decoration: none;
+}
+.middle .per-person{
+    color: #ffffff80;
+}
+
+.pricing-card {
+    width: 370.66px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 20px; 
+    padding: 32px;
+    box-sizing: border-box;
+}
+.pricing-card ul{
+    padding-left: 20px;
+    margin: 0;
+}
+.middle{
+    background-color: #0d1b2aFF;
+    color: #ffffffCC;
+}
+
+.pricing-card li::marker{
+    color: #2563ebFF;
+}
+
+.button{
+    background-color: transparent;
+    color: #2563ebFF;
+    border: 3px solid #2563ebFF;;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 304.66px;
+    height: 45px;
+    
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;   
+}
+.button:hover {
+    background-color: #eff6ff;
+    border-color: #1d4ed8;
+}
+.button-mid{
+        font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 304.66px;
+    height: 45px;
+}
+.pricing-card hr{
+    width: 304.66px;
+    height: 1px;
+    background: #e5e7ebFF;
+
+}
+.middle hr{
+    background: #ffffff1A;
+}
