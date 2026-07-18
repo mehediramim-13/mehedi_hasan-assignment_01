@@ -28,6 +28,7 @@ nav{
     border-radius: 10px;
     padding: 10px 20px;
     cursor: pointer;
+    font-weight: 700;
 }
 .blue-button:hover {
     background-color: #1e40af;
@@ -94,7 +95,11 @@ nav ul li a {
     margin: 0;
 }
 .hero button{
+    width: 284px;
+    height: 74px;
+    padding: 12px;
     margin-top: 400px;
+    font-size: 24px;
 }
 /* Hero Sec Design End */
 
