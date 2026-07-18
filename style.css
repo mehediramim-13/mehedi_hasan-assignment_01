@@ -308,7 +308,7 @@ nav ul li a {
 .middle hr{
     background: #ffffff1A;
 }
-/* CREATED WITH AI */
+/* COUNTDOWN SECTION - CREATED BY AI */
 .countdown-main {
     text-align: center;
     padding: 80px 0;
@@ -350,7 +350,7 @@ nav ul li a {
     color: #a5b4fc;
     margin: 0;
 }
-/* AI SECTION 2 */
+/* FAQ Section - Created by AI */
 .faq-main {
     font-family: "Arimo", sans-serif;
     padding: 80px 0;
@@ -397,4 +397,59 @@ nav ul li a {
     margin-top: 16px;
     color: #6b7280;
     line-height: 1.6;
+}
+/* Footer Design Strt */
+footer{
+    background-color: #0d1b2aFF;
+    color: white;
+    font-family: "Arimo", sans-serif;
+
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 60px 56px 60px;
+    row-gap: 20px;
+    width: 1551px;
+    height: 145px;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-left img{
+    height: 32px;
+}
+.footer-left p{
+    color: #ffffff66;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.21875;
+    letter-spacing: 0px;
+}
+.social-media {
+    display: flex;
+    gap: 16px;
+}
+
+.social-media img {
+    width: 24px;
+    height: 24px;
+}
+.footer-right {
+    display: flex;
+    gap: 24px;
+}
+
+.footer-right a {
+    color: #ffffff66;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right a:hover {
+    color: white;
 }
